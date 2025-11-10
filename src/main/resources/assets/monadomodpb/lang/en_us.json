@@ -1,3 +1,14 @@
 {
-"item.monadomodpb.monado": "Monado"
+"item.monadomodpb.monado": "Monado",
+
+  "item.monadomodpb.monado_art_template": "Monado Art Template",
+
+  "item.monadomodpb.art_shield": "Shield",
+  "item.monadomodpb.art_enchant": "Enchant",
+  "item.monadomodpb.art_buster": "Buster",
+  "item.monadomodpb.art_eater": "Eater",
+  "item.monadomodpb.art_speed": "Speed",
+  "item.monadomodpb.art_cyclone": "Cyclone",
+  "item.monadomodpb.art_armour": "Armour",
+  "item.monadomodpb.art_purge": "Purge"
 }

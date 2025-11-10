@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "monadomodpb:item/monado_art_template"
+  }
+}

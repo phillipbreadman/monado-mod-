@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {"item": "minecraft:wind_charge"},
+    "a": {"item": "minecraft:amethyst_shard"},
+    "g": {"item": "minecraft:glass_pane"}},
+
+  "pattern":
+  [
+    "gag",
+    "aia",
+    "gag"
+  ],
+  "result": {"count": 1, "id": "monadomodpb:art_cyclone"}
+}

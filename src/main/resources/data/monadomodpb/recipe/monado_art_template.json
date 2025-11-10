@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {"item": "minecraft:diamond"},
+    "a": {"item": "minecraft:amethyst_shard"},
+    "g": {"item": "minecraft:glass_pane"}},
+
+  "pattern":
+  [
+    "ada",
+    "aga",
+    "ada"
+  ],
+  "result": {"count": 1, "id": "monadomodpb:monado_art_template"}
+}
