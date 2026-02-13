@@ -4,11 +4,20 @@
   "item.monadomodpb.monado_art_template": "Monado Art Template",
 
   "item.monadomodpb.art_shield": "Shield",
+  "item.monadomodpb.monado_shield": "Monado Shield",
   "item.monadomodpb.art_enchant": "Enchant",
+  "item.monadomodpb.monado_enchant": "Monado Enchant",
   "item.monadomodpb.art_buster": "Buster",
+  "item.monadomodpb.monado_buster": "Monado Buster",
   "item.monadomodpb.art_eater": "Eater",
+  "item.monadomodpb.monado_eater": "Monado Eater",
   "item.monadomodpb.art_speed": "Speed",
+  "item.monadomodpb.monado_speed": "Monado Speed",
   "item.monadomodpb.art_cyclone": "Cyclone",
   "item.monadomodpb.art_armour": "Armour",
-  "item.monadomodpb.art_purge": "Purge"
+  "item.monadomodpb.monado_armour": "Monado Armour",
+  "item.monadomodpb.art_purge": "Purge",
+
+  "item.monadomodpb.smithing_template.monado_upgrade.applies_to": "Monado",
+  "item.monadomodpb.smithing_template.monado_upgrade.ingredients": "Monado"
 }

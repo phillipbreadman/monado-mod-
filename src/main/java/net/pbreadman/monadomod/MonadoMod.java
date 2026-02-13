@@ -2,6 +2,7 @@ package net.pbreadman.monadomod;
 
 
 import net.pbreadman.monadomod.items.ModItems;
+import net.pbreadman.monadomod.items.custom.MonadoTemplate;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -39,6 +40,8 @@ public class MonadoMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        MonadoTemplate.createMonadoTemplate();
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
