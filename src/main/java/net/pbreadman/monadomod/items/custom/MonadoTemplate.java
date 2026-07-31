@@ -40,11 +40,11 @@ public class MonadoTemplate extends SmithingTemplateItem {
     }
 
     static {
-        MONADO_UPGRADE_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.monado_upgrade.applies_to"))).withStyle(DESCRIPTION_FORMAT);
-        MONADO_UPGRADE_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.monado_upgrade.ingredients"))).withStyle(DESCRIPTION_FORMAT);
-        MONADO_UPGRADE = Component.translatable(Util.makeDescriptionId("upgrade", ResourceLocation.withDefaultNamespace("monado_upgrade"))).withStyle(TITLE_FORMAT);
-        MONADO_UPGRADE_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.monado_upgrade.base_slot_description")));
-        MONADO_UPGRADE_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.withDefaultNamespace("smithing_template.monado_upgrade.additions_slot_description")));
+        MONADO_UPGRADE_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath("monadomodpb", "smithing_template.monado_upgrade.applies_to"))).withStyle(DESCRIPTION_FORMAT);
+        MONADO_UPGRADE_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath("monadomodpb", "smithing_template.monado_upgrade.ingredients"))).withStyle(DESCRIPTION_FORMAT);
+        MONADO_UPGRADE = Component.translatable(Util.makeDescriptionId("upgrade", ResourceLocation.fromNamespaceAndPath("monadomodpb", "monado_upgrade"))).withStyle(TITLE_FORMAT);
+        MONADO_UPGRADE_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath("monadomodpb", "smithing_template.monado_upgrade.base_slot_description")));
+        MONADO_UPGRADE_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", ResourceLocation.fromNamespaceAndPath("monadomodpb", "smithing_template.monado_upgrade.additions_slot_description")));
         EMPTY_SLOT_SWORD = ResourceLocation.withDefaultNamespace("item/empty_slot_sword");
         EMPTY_SLOT_AMETHYST_SHARD = ResourceLocation.withDefaultNamespace("item/empty_slot_amethyst_shard");
     }

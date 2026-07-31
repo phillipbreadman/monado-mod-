@@ -2,20 +2,24 @@ package net.pbreadman.monadomod.items;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.util.Unit;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pbreadman.monadomod.MonadoMod;
+import net.pbreadman.monadomod.items.custom.ModDataComponents;
 import net.pbreadman.monadomod.items.custom.MonadoTemplate;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MonadoMod.MOD_ID);
 
-    //enchant and buster should start on it. not there yet
+    //enchant and buster should start on it
     public static final DeferredItem<SwordItem> MONADO = ITEMS.register("monado",
             () -> new SwordItem(ModToolTiers.MONADO, new Item
                     .Properties()
                     .fireResistant()
+                    .component(ModDataComponents.UNLOCKED_ENCHANT.get(), Unit.INSTANCE)
+                    .component(ModDataComponents.UNLOCKED_BUSTER.get(), Unit.INSTANCE)
                     .attributes(SwordItem.createAttributes(ModToolTiers.MONADO, 1, -2.4F))));
 
     public static final DeferredItem<Item> MONADO_ART_TEMPLATE = ITEMS.register("monado_art_template",
@@ -86,4 +90,3 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 }
-

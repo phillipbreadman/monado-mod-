@@ -1,5 +1,5 @@
 {
-"item.monadomodpb.monado": "Monado",
+  "item.monadomodpb.monado": "Monado",
 
   "item.monadomodpb.monado_art_template": "Monado Art Template",
 
@@ -19,5 +19,8 @@
   "item.monadomodpb.art_purge": "Purge",
 
   "item.monadomodpb.smithing_template.monado_upgrade.applies_to": "Monado",
-  "item.monadomodpb.smithing_template.monado_upgrade.ingredients": "Monado"
+  "item.monadomodpb.smithing_template.monado_upgrade.ingredients": "Monado",
+  "item.monadomodpb.smithing_template.monado_upgrade.base_slot_description": "Add THE Monado",
+  "item.monadomodpb.smithing_template.monado_upgrade.additions_slot_description": "Add an Art",
+  "upgrade.monadomodpb.monado_upgrade": "Monado Upgrade"
 }

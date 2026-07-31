@@ -1,0 +1,14 @@
+{
+  "type": "monadomodpb:monado_art",
+  "template": { "item": "monadomodpb:monado_art_template" },
+  "base": { "tag": "monadomodpb:monado" },
+  "addition": { "item": "monadomodpb:art_buster" },
+  "unlock_component": "monadomodpb:unlocked_buster",
+  "result": {
+    "id": "monadomodpb:monado",
+    "count": 1,
+    "components": {
+      "monadomodpb:unlocked_buster": {}
+    }
+  }
+}
