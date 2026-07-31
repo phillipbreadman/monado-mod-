@@ -1,8 +1,6 @@
 package net.pbreadman.monadomod.items;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SmithingTemplateItem;
 import net.minecraft.world.item.SwordItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -20,13 +18,8 @@ public class ModItems {
                     .fireResistant()
                     .attributes(SwordItem.createAttributes(ModToolTiers.MONADO, 1, -2.4F))));
 
-    private static Object MonadoTemplate;
     public static final DeferredItem<Item> MONADO_ART_TEMPLATE = ITEMS.register("monado_art_template",
-            () -> new SmithingTemplateItem(MonadoTemplate(MonadoTemplate)));
-
-    private static Component MonadoTemplate(Object monadoTemplate) {
-        return null;
-    }
+            MonadoTemplate::createMonadoTemplate);
 
     public static final DeferredItem<Item> ART_SHIELD = ITEMS.register("art_shield",
             () -> new Item(new Item.Properties()));
@@ -34,7 +27,7 @@ public class ModItems {
             () -> new MonadoShieldItem(ModToolTiers.MONADO, 1,-2.4f, new Item
                     .Properties()
                     .fireResistant()
-  ));
+            ));
 
 
     public static final DeferredItem<Item> ART_ARMOUR = ITEMS.register("art_armour",
@@ -93,3 +86,4 @@ public class ModItems {
         ITEMS.register(eventBus);
     }
 }
+
