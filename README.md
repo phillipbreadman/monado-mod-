@@ -1,10 +1,10 @@
 # **Disclaimer**
-(disclaimer here)
+This is a fan made recreation of the weapons and items from **The Xenoblade Cronicle** series. Associated names and design are the intelectual property of **Nintendo** and **Monolithsoft**. I do not own the IP.
 
 ---
 
 ## XC Weaponry Info:
-(info here)
+WIP
 
 
 ---
@@ -16,7 +16,7 @@
 **Modrinth**:  
 
 ##### Ending Notes
-(ending notes here)
+Plans for this mod are to add the main weapons from the **Xenoblade** series. Current weapons being worked on are the **Monado** and **Aegis Swords**.
 
 ---
 
