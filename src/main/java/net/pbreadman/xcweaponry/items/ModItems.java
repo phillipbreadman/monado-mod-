@@ -70,9 +70,15 @@ public class ModItems {
                     .Properties()
                     .fireResistant()
             ));
+
+
     public static final DeferredItem<Item> ART_CYCLONE = ITEMS.register("art_cyclone",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<MonadoEaterItem> MONADO_CYCLONE = ITEMS.register("monado_cyclone",
+            () -> new MonadoEaterItem(ModToolTiers.MONADO, 1,-2.4f, new Item
+                    .Properties()
+                    .fireResistant()
+            ));
 
 
     public static final DeferredItem<Item> ART_EATER = ITEMS.register("art_eater",
@@ -85,6 +91,12 @@ public class ModItems {
 
     public static final DeferredItem<Item> ART_PURGE = ITEMS.register("art_purge",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<MonadoEaterItem> MONADO_PURGE = ITEMS.register("monado_purge",
+            () -> new MonadoEaterItem(ModToolTiers.MONADO, 1,-2.4f, new Item
+                    .Properties()
+                    .fireResistant()
+            ));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
