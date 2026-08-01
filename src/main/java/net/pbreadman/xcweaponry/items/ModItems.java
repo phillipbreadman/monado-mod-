@@ -1,6 +1,10 @@
 package net.pbreadman.xcweaponry.items;
 
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.util.Unit;
 import net.neoforged.bus.api.IEventBus;
@@ -9,6 +13,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pbreadman.xcweaponry.XCWeaponry;
 import net.pbreadman.xcweaponry.items.custom.ModDataComponents;
 import net.pbreadman.xcweaponry.items.custom.MonadoTemplate;
+import net.pbreadman.xcweaponry.items.custom.OntosItem;
+
+import java.util.logging.Level;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(XCWeaponry.MOD_ID);
@@ -101,7 +108,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> ONTOS = ITEMS.register("ontos",
-            () -> new Item(new Item.Properties()));
+            () -> new OntosItem(new Item.Properties()));
 
     public static final DeferredItem<Item> CORE_CRYSTAL = ITEMS.register("core_crystal",
             () -> new Item(new Item.Properties()));
