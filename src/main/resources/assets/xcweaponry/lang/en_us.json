@@ -1,0 +1,26 @@
+{
+"item.xcweaponry.monado": "Monado",
+
+  "item.xcweaponry.monado_art_template": "Monado Art Template",
+
+  "item.xcweaponry.art_shield": "Shield",
+  "item.xcweaponry.monado_shield": "Monado Shield",
+  "item.xcweaponry.art_enchant": "Enchant",
+  "item.xcweaponry.monado_enchant": "Monado Enchant",
+  "item.xcweaponry.art_buster": "Buster",
+  "item.xcweaponry.monado_buster": "Monado Buster",
+  "item.xcweaponry.art_eater": "Eater",
+  "item.xcweaponry.monado_eater": "Monado Eater",
+  "item.xcweaponry.art_speed": "Speed",
+  "item.xcweaponry.monado_speed": "Monado Speed",
+  "item.xcweaponry.art_cyclone": "Cyclone",
+  "item.xcweaponry.art_armour": "Armour",
+  "item.xcweaponry.monado_armour": "Monado Armour",
+  "item.xcweaponry.art_purge": "Purge",
+
+  "item.xcweaponry.smithing_template.monado_upgrade.applies_to": "Monado",
+  "item.xcweaponry.smithing_template.monado_upgrade.ingredients": "Monado",
+  "item.xcweaponry.smithing_template.monado_upgrade.base_slot_description": "Add THE Monado",
+  "item.xcweaponry.smithing_template.monado_upgrade.additions_slot_description": "Add an Art",
+  "upgrade.xcweaponry.monado_upgrade": "Monado Upgrade"
+}
