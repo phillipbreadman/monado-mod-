@@ -1,6 +1,8 @@
 package net.pbreadman.xcweaponry;
 
 
+import net.neoforged.neoforge.common.NeoForge;
+import net.pbreadman.xcweaponry.event.ModEvents;
 import net.pbreadman.xcweaponry.items.ModItems;
 import net.pbreadman.xcweaponry.items.custom.ModDataComponents;
 import net.pbreadman.xcweaponry.recipe.ModRecipeSerializers;
@@ -37,6 +39,7 @@ public class XCWeaponry {
         ModItems.register(modEventBus);
         ModRecipeSerializers.RECIPE_SERIALIZERS.register(modEventBus);
 
+        NeoForge.EVENT_BUS.register(ModEvents.class);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

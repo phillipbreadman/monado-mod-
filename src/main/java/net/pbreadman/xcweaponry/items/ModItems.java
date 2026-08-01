@@ -1,10 +1,6 @@
 package net.pbreadman.xcweaponry.items;
 
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.util.Unit;
 import net.neoforged.bus.api.IEventBus;
@@ -13,9 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.pbreadman.xcweaponry.XCWeaponry;
 import net.pbreadman.xcweaponry.items.custom.ModDataComponents;
 import net.pbreadman.xcweaponry.items.custom.MonadoTemplate;
-import net.pbreadman.xcweaponry.items.custom.OntosItem;
-
-import java.util.logging.Level;
+import net.pbreadman.xcweaponry.items.custom.UseableItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(XCWeaponry.MOD_ID);
@@ -81,8 +75,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> ART_CYCLONE = ITEMS.register("art_cyclone",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<MonadoEaterItem> MONADO_CYCLONE = ITEMS.register("monado_cyclone",
-            () -> new MonadoEaterItem(ModToolTiers.MONADO, 1,-2.4f, new Item
+    public static final DeferredItem<MonadoCycloneItem> MONADO_CYCLONE = ITEMS.register("monado_cyclone",
+            () -> new MonadoCycloneItem(ModToolTiers.MONADO, 1,-2.4f, new Item
                     .Properties()
                     .fireResistant()
             ));
@@ -108,7 +102,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> ONTOS = ITEMS.register("ontos",
-            () -> new OntosItem(new Item.Properties()));
+            () -> new UseableItem(new Item.Properties()));
 
     public static final DeferredItem<Item> CORE_CRYSTAL = ITEMS.register("core_crystal",
             () -> new Item(new Item.Properties()));
