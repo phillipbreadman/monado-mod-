@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {"item": "minecraft:emerald"},
+    "a": {"item": "minecraft:amethyst_shard"}},
+
+  "pattern":
+  [
+    " a ",
+    "aea",
+    " a "
+  ],
+  "result": {"count": 1, "id": "xcweaponry:ether"}
+}

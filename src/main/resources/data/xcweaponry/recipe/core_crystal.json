@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {"item": "xcweaponry:ether"}},
+
+  "pattern":
+  [
+    "ee",
+    "ee"
+  ],
+  "result": {"count": 1, "id": "xcweaponry:core_crystal"}
+}
