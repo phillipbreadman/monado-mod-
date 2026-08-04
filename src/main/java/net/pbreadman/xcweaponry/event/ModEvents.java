@@ -19,10 +19,10 @@ public class ModEvents {
         ItemStack heldItem = event.getItemStack();
         InteractionHand hand = event.getHand();
 
-        if (heldItem.getItem() == ModItems.ONTOS.get()) {
-            player.sendSystemMessage(Component.literal(player.getName().getString() + " called for the !added event"));
+        if (heldItem.is(ModItems.ONTOS.get())) {
         ItemStack replaceItem = new ItemStack(ModItems.MONADO.get());
         ItemStack resultsStack = ItemUtils.createFilledResult(heldItem, player, replaceItem);
+
         player.setItemInHand(hand,resultsStack);
         event.setCancellationResult(InteractionResult.SUCCESS);
         event.setCanceled(true);

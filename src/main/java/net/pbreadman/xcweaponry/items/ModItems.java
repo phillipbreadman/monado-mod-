@@ -16,12 +16,12 @@ public class ModItems {
 
     //enchant and buster should start on it
     public static final DeferredItem<SwordItem> MONADO = ITEMS.register("monado",
-            () -> new SwordItem(ModToolTiers.MONADO, new Item
+            () -> new MonadoBase(ModToolTiers.MONADO, new Item
                     .Properties()
                     .fireResistant()
                     .component(ModDataComponents.UNLOCKED_ENCHANT.get(), Unit.INSTANCE)
                     .component(ModDataComponents.UNLOCKED_BUSTER.get(), Unit.INSTANCE)
-                    .attributes(SwordItem.createAttributes(ModToolTiers.MONADO, 1, -2.4F))));
+                   ));
 
     public static final DeferredItem<Item> MONADO_ART_TEMPLATE = ITEMS.register("monado_art_template",
             MonadoTemplate::createMonadoTemplate);
